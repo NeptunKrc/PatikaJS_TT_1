@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .Div{
+            position: fixed;  /* Ekranda sabit kalır, sayfa kaydırılsa bile. */
+    top: 0;           /* Üstten sıfır piksel uzaklıkta */
+    left: 0;          /* Soldan sıfır piksel uzaklıkta */
+    width: 100%;      /* Ekran genişliğinin tamamını kaplar */
+    height: 100%;     /* Ekran yüksekliğinin tamamını kaplar */
+    display: flex;              /* Flexbox modunu etkinleştirir */
+    flex-direction: column;     /* Elementleri dikeyde hizalar */
+    justify-content: center;    /* Elementleri dikeyde ortalar */
+    align-items: center;
+
+
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="Div"  style="background-color: aquamarine;">
+
+        <h1 id="NAME_TEXT"></h1>
+        <h1 id="CLOCK"></h2>
+
+    </div>
+    
+    
+    
+    <script src="/scripts.js"></script>
+
+</body>
+</html>
